@@ -27,4 +27,5 @@ jobs:
 
       - name: "Deploy to AWS"
         run: pm2 start server.js --name my-app
+        
 
